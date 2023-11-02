@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:keyWidth="18%p">
+
+    <Row>
+        <Key android:codes="40" android:keyLabel="(" android:keyEdgeFlags="left"/>
+        <Key android:codes="41" android:keyLabel=")"/>
+        <Key android:codes="34" android:keyIcon="@drawable/quote" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="91" android:keyLabel="[" android:keyEdgeFlags="left"/>
+        <Key android:codes="93" android:keyLabel="]" />
+        <Key android:codes="38" android:keyLabel="&amp;" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="123" android:keyLabel="{" android:keyEdgeFlags="left"/>
+        <Key android:codes="125" android:keyLabel="}" />
+        <Key android:codes="36" android:keyLabel="$" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="60" android:keyLabel="&lt;" android:keyEdgeFlags="left"/>
+        <Key android:codes="62" android:keyLabel="&gt;" />
+        <Key android:codes="58" android:keyLabel=":" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-132" android:keyIcon="@drawable/arrow_back" android:keyEdgeFlags="left"/>
+        <Key android:codes="59" android:keyLabel=";"/>
+        <Key android:codes="-134" android:keyLabel="2/2" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    >
+
+    <Row
+        android:keyWidth="27%p">
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="46" android:keyLabel="." android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row
+        android:keyWidth="27%p">
+        <Key android:codes="44" android:keyLabel="," android:keyEdgeFlags="left"/>
+        <Key android:codes="33" android:keyLabel="!" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row
+        android:keyWidth="54%p">
+        <Key android:codes="-132" android:keyIcon="@drawable/back_arrow" android:keyEdgeFlags="left"/>
+    </Row>
+
+</Keyboard>

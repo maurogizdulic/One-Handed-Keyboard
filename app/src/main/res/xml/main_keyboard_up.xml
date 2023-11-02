@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:keyWidth="18%p">
+
+    <Row>
+        <Key android:codes="-1" android:keyLabel="1 .,?" android:keyEdgeFlags="left" />
+        <Key android:codes="-2" android:keyLabel="2 ABC"/>
+        <Key android:codes="-3" android:keyLabel="3 DEF" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-4" android:keyLabel="4 GHI" android:keyEdgeFlags="left"/>
+        <Key android:codes="-5" android:keyLabel="5 JKL"/>
+        <Key android:codes="-6" android:keyLabel="6 MNO" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-7" android:keyLabel="7 PQRS" android:keyEdgeFlags="left"/>
+        <Key android:codes="-8" android:keyLabel="8 TUV"/>
+        <Key android:codes="-9" android:keyLabel="9 WXYZ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-10" android:keyIcon="@drawable/two_up" android:keyEdgeFlags="left"/>
+        <Key android:codes="-15" android:keyLabel="0"/>
+        <Key android:codes="-11" android:keyLabel="SYM" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-12" android:keyIcon="@drawable/backspace_arrow" android:keyEdgeFlags="left"/>
+        <Key android:codes="-13" android:keyLabel="SPACE"/>
+        <Key android:codes="-14" android:keyIcon="@drawable/enter" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OneHandedKeyboard1</string>
+    <string name="one">1 .,?</string>
+    <string name="abc2">2 abc</string>
+    <string name="def3">3 def</string>
+    <string name="ghi4">4 ghi</string>
+    <string name="jkl5">5 jkl</string>
+    <string name="mno6">6 mno</string>
+    <string name="pqrs7">7 pqrs</string>
+    <string name="tuv8">8 tuv</string>
+    <string name="wxyz">9 wxyz</string>
+    <string name="čćždžđ">čćdžđ</string>
+    <string name="ljnjšž">ljnjšž</string>
+    <string name="____">____</string>
+
+</resources>
